@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <style>
+table {width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 1px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th	{
+    background-color: black;
+    color: white;
+}
+</style>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <link href="../code/tab_single.css" rel="stylesheet" type="text/css">
+  </head>
+  <body style="  background: white; font-family:Helvetica,Arial;">
+    <!--  DO NOT MODIFY ANYTHING ABOVE THIS LINE --> 
+    <p><strong>Chat Features</strong></p>
+	<p>The section below describes how to utilize our Chat features</p>	
+	<p><strong>Live Chat:</strong></p>
+	<p>Live Chat has been setup for each Department as documented in the IVR and Call Queuing tab. Agent chat is accessed via the Finesse desktop. Use the table below to access the customer-end chat feature.<br><strong>NOTE:</strong> For Chat to work normally, your primary DNS must be set to 10.10.20.100 and the Agent desktop must be accessed via <a href="https://hq-uccx.abc.inc:8445/desktop" target="_blank">https://hq-uccx.abc.inc:8445/desktop</a><br> <p>
+	<form action="UCCX_ChatQueue.html" target="_blank">
+    <input type="submit" value="Open Chat Widget">
+	</form>
+	<p></p>
+	<table id=t01">
+  <tr>
+    <th>Queue</th>
+    <th>Members</th> 
+    <th>Problem</th>
+  </tr>
+  <tr>
+    <td>Team_IT_Tier1</td>
+    <td>Agent001-004</td> 
+    <td>Tier 1 IT Support</td>
+  </tr>
+  <tr>
+    <td>Team_IT_Tier2</td>
+    <td>Agent005-008</td> 
+    <td>Tier 2 IT Support</td>
+  </tr>
+  <tr>
+    <td>Team_HR</td>
+    <td>Agent009-012</td> 
+    <td>HR Inquiries</td>
+  </tr>
+  <tr>
+    <td>Team_Finance</td>
+    <td>Agent013-016</td> 
+    <td>Finance Inquiries</td>
+  </tr>
+  <tr>
+    <td>Team_Complaints</td>
+    <td>Agent017-020</td> 
+    <td>Complaints</td>
+  </tr>
+</table>
+	<p></p>
+    <!--  DO NOT MODIFY ANYTHING BELOW THIS LINE -->
+  </body>
+</html>

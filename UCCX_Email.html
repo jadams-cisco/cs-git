@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <style>
+table {width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 1px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th	{
+    background-color: black;
+    color: white;
+}
+</style>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <link href="../code/tab_single.css" rel="stylesheet" type="text/css">
+  </head>
+  <body style="  background: white; font-family:Helvetica,Arial;">
+    <!--  DO NOT MODIFY ANYTHING ABOVE THIS LINE --> 
+    <p><strong>Email Queuing</strong></p>
+	<p>The section below describes how to utilize our Email features</p>	
+	<p><strong>Email Queues:</strong></p>
+	<p>Each Customer Service Queue has been configured with their own mailer list. It's very simple, customers send an email to the mailer, and it routes to the correct logged in agents. At this time email is internal only, only emails from users inside of this lab will be properly routed through the email server. <br><strong>NOTE:</strong> For email to work normally, your primary DNS must be set to 10.10.20.100 and the Agent desktop must be accessed via <a href="https://hq-uccx.abc.inc:8445/desktop" target="_blank">https://hq-uccx.abc.inc:8445/desktop</a><br> <p>
+	<p>Each Agent and User has an email address configured for this lab. If you desire to leverage their email accounts for testing, use the link below. To log in, use the same credentials from the Finesse Tab. <br><strong>Ex.</strong> UN: Agent001 PW: ciscopsdt<br></br><strong>Ex.</strong> UN: User001 PW: ciscopsdt</br> </p>
+	<p>Email Web Client: <a href="https://mail.abc.inc/owa" target="_blank">https://mail.abc.inc/owa</a></p>
+	<table id=t01">
+  <tr>
+    <th>Queue</th>
+    <th>Members</th> 
+    <th>Mailer</th>
+  </tr>
+  <tr>
+    <td>Team_IT_Tier1</td>
+    <td>Agent001-004</td> 
+    <td>IT_Tier1_Help@abc.inc</td>
+  </tr>
+  <tr>
+    <td>Team_IT_Tier2</td>
+    <td>Agent005-008</td> 
+    <td>IT_Tier2_Help@abc.inc</td>
+  </tr>
+  <tr>
+    <td>Team_HR</td>
+    <td>Agent009-012</td> 
+    <td>HR_Help@abc.inc</td>
+  </tr>
+  <tr>
+    <td>Team_Finance</td>
+    <td>Agent013-016</td> 
+    <td>Finance_Help@abc.inc</td>
+  </tr>
+  <tr>
+    <td>Team_Complaints</td>
+    <td>Agent017-020</td> 
+    <td>Complaints_Help@abc.inc</td>
+  </tr>
+</table>
+	<p></p>
+    <!--  DO NOT MODIFY ANYTHING BELOW THIS LINE -->
+  </body>
+</html>
