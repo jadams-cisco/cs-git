@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>Tabbed Content</title>
+    <script src="../code/tabcontent.js" type="text/javascript"></script>
+    <link href="../code/tabcontent.css" rel="stylesheet" type="text/css">
+	<link href="../code/tab_set.css" rel="stylesheet" type="text/css">
+  </head>
+  <body style="background: white; font-family:Helvetica,Arial;}">
+    <div style="width: 520px; margin: 0 auto; padding: 0px 0 0px;">
+      <ul class="tabs" data-persist="true">
+		<!--  MODIFY THE FOLLOWING LIST ITEMS -->
+		<!--  THESE WILL BE THE INDIVIDUAL TAB NAMES -->
+        <li><a href="#view1">TRex Overview</a></li>
+		<li><a href="#view2">Quick Start</a></li>
+		<li><a href="#view3">VPN Access</a></li>
+		<li><a href="#view4">Support</a></li>
+		<!--  MODIFY THE PREVIOUS LIST ITEMS -->
+      </ul>
+      <div class="tabcontents">
+	  	<!--  FOLLOW THE PATTERN BELOW.  EACH SRC WILL BE A POINTER TO A HTML FILE IN THIS DIRECTORY, REPRESENTING CONTENT FOR ONE TAB. -->
+        <div id="view1"> 
+			<iframe id="t1" src="Lab_TREX_Overview.html"  scrolling="no"></iframe>
+        </div>
+		<div id="view2"> 
+			<iframe id="t2" src="Lab_TREX_QuickStart.html"  scrolling="no"></iframe>
+        </div>
+		<div id="view3"> 
+			<iframe id="t3" src="../VPN/VPN_Access.html"  scrolling="no"></iframe>
+        </div>
+		<div id="view4"> 
+			<iframe id="t4" src="Lab_TREX_Support.html"  scrolling="no"></iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
