@@ -1,0 +1,38 @@
+html, body, div, iframe {  
+  margin-top: 0px;  
+  margin-right: 0px;  
+  margin-bottom: 0px;  
+  margin-left: 0px;  
+  padding-top: 0px;  
+  padding-right: 0px;  
+  padding-bottom: 0px;  
+  padding-left: 0px;  
+  width: 505px;  
+  height: 93%;
+  overflow-y: auto;
+}
+
+iframe {  
+  display: block;  
+  border-top-width: medium;  
+  border-top-style: none;  
+  border-top-color: initial;
+  border-top-color: -moz-initial;  
+  border-right-width: medium;  
+  border-right-style: none;  
+  border-right-color: initial;
+  border-right-color: -moz-initial;  
+  border-bottom-width: medium;  
+  border-bottom-style: none;  
+  border-bottom-color: initial;
+  border-bottom-color: -moz-initial;  
+  border-left-width: medium;  
+  border-left-style: none;  
+  border-left-color: initial;
+  border-left-color: -moz-initial;  
+  height: 100%;  
+  width: 505px;
+  overflow-y: auto;
+}
+
+
