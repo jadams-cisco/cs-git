@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <link href="../code/tab_single.css" rel="stylesheet" type="text/css">
+  </head>
+  <body style="   background: white; font-family:Helvetica,Arial;">
+    <!--  DO NOT MODIFY ANYTHING ABOVE THIS LINE --> <span style="font-weight: bold; text-decoration: underline;">Overview:</span><br>
+    The TRex Lab...<br>
+    <br>
+    &nbsp;<span style="text-decoration: underline; font-weight: bold;">Lab
+      Information:</span><br>
+    The TRex Lab...<br>
+    <br>
+    <span style="text-decoration: underline; font-weight: bold;">Type of Access:
+    </span><br>
+    <ul>
+      <li>After Software VPN connection: Telnet/SSH access to the APIC-EM server
+        using credentials [grapevine/grapevine].</li>
+      <li>After software VPN connection: HTTP access to the APIC-EM server using
+        credentials [admin/secrete].</li>
+      <li>After software VPN connection: Telnet/SSH access to network
+        elements.&nbsp; Credentials provided by mousing over the network
+        element's icon and choosing "Attributes".</li>
+    </ul>
+    <br>
+    <span style="text-decoration: underline; font-weight: bold;">Access Details:
+    </span><br>
+    The TRex Lab...<br>
+    <br>
+    <br>
+    &nbsp;<br>
+    <span style="font-weight: bold; text-decoration: underline;">Additional
+      Information: </span><br>
+    <ul>
+      <li><a target="_blank" href="https://developer.cisco.com">TRex Support</a></li>
+      <li><a target="_blank" href="https://communities.cisco.com/community/developer/sandbox">Sandbox
+          Support </a> </li>
+    </ul>
+  </body>
+</html>
